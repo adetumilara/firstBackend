@@ -1,0 +1,7 @@
+20230915	10:38:57	b914308e-9cd0-4a13-9b92-d59877103ae2	TypeError: fsPromises.readFil is not a function
+20230916	15:21:40	716d206a-7fef-41d9-bf3f-155c11430ec3	Error: Not allowed by CORS
+20230918	08:21:29	e2cb1040-0874-45d1-a78d-109908935eb2	TypeError: authHeader?.startWith is not a function
+20230918	08:22:23	e59a5ff0-6e9b-4f09-a484-4e19c2f9e08e	TypeError: authHeader?.startWith is not a function
+20230918	08:23:32	dae29ee8-c082-401b-a60f-ee1618d90d0b	TypeError: authHeader?.startWith is not a function
+20230918	08:28:10	5f60cf6c-dce9-4d77-bd36-ac75e2c8a08d	TypeError: authHeader?.startWith is not a function
+20230918	08:29:38	e5b62c47-4e53-4694-817c-fa74083caf8e	TypeError: authHeader?.startWith is not a function
