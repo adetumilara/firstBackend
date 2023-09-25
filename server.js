@@ -24,8 +24,25 @@ app.use(logger);
 app.use(credentials);
 
 // Cross Origin Resource Share
+// app.use(cors(corsOptions));
+// console.log(corsOptions);
 
-app.use(cors(corsOptions));
+app.use((req, res, next) => {
+  res.header("Access-Control-Allow-Origin", "http://localhost:3000"); // Replace with your client's origin
+  res.header("Access-Control-Allow-Credentials", "true"); // Set to 'true' to allow credentials
+  res.header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS");
+  res.header(
+    "Access-Control-Allow-Headers",
+    "Origin, X-Requested-With, Content-Type, Accept, Authorization"
+  );
+
+  // Handle preflight requests (OPTIONS)
+  if (req.method === "OPTIONS") {
+    res.sendStatus(200);
+  } else {
+    next();
+  }
+});
 
 // built-in middleware to handle urlencoded  data
 // in other words, form data:

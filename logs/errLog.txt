@@ -5,3 +5,8 @@
 20230918	08:23:32	dae29ee8-c082-401b-a60f-ee1618d90d0b	TypeError: authHeader?.startWith is not a function
 20230918	08:28:10	5f60cf6c-dce9-4d77-bd36-ac75e2c8a08d	TypeError: authHeader?.startWith is not a function
 20230918	08:29:38	e5b62c47-4e53-4694-817c-fa74083caf8e	TypeError: authHeader?.startWith is not a function
+20230919	12:06:23	b0c9d836-bb5d-4d3e-b77c-a6ddd7adb532	Error: Not allowed by CORS
+20230919	12:06:25	613ab35a-c226-48a5-9315-488e1f573f5c	Error: Not allowed by CORS
+20230919	12:06:42	cec114d2-b9fb-4678-8d3c-2cd4000a9416	Error: Not allowed by CORS
+20230919	12:08:42	38f5a012-d7c1-47bd-8295-9b0c5758f7a7	Error: Not allowed by CORS
+20230919	12:09:19	b524f191-1dcf-4525-bad4-d51aea75082b	Error: Not allowed by CORS
